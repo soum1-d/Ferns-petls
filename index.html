@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR | Minimalist Marketplace</title>
+    <meta name="description" content="A premium, monochromatic marketplace for flowers, cakes, and anniversary essentials.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu-overlay" class="mobile-menu-overlay">
+        <div class="menu-header">
+            <div class="logo">NOIR</div>
+            <button class="icon-btn close-menu"><i data-lucide="x"></i></button>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#flowers">Flowers</a></li>
+            <li><a href="#luxe-flowers">Luxe Flowers</a></li>
+            <li><a href="#cakes">Cakes</a></li>
+            <li><a href="#birthday-plants">Birthday Plants</a></li>
+            <li><a href="#perfume">Perfume</a></li>
+            <li><a href="#anniversary">Anniversary</a></li>
+        </ul>
+        <div class="menu-footer">
+            <p>Elevating minimalist celebrations.</p>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="#">NOIR</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#flowers">Flowers</a></li>
+                <li><a href="#luxe-flowers">Luxe Flowers</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#birthday-plants">Birthday Plants</a></li>
+                <li><a href="#perfume">Perfume</a></li>
+                <li><a href="#anniversary">Anniversary</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="style-toggle" class="btn-outline" title="Change Layout">
+                    <i data-lucide="layout-grid"></i>
+                    <span>Classic</span>
+                </button>
+                <button aria-label="Search" class="icon-btn"><i data-lucide="search"></i></button>
+                <button aria-label="Cart" class="icon-btn"><i data-lucide="shopping-bag"></i></button>
+                <button aria-label="Menu" class="icon-btn menu-toggle"><i data-lucide="menu"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="eyebrow">The Editorial Collection</span>
+                    <h1>Elegance in Every Detail</h1>
+                    <p>Curated floral arrangements, artisanal cakes, and timeless anniversary essentials. Monochromatic by design, unforgettable by nature.</p>
+                    <div class="cta-group">
+                        <a href="#shop" class="btn btn-primary">Shop Collection</a>
+                        <a href="#about" class="btn btn-secondary">Our Story</a>
+                    </div>
+                </div>
+                <div class="hero-image-placeholder">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1550583724-b2692b8d002f?q=80&w=2000&auto=format&fit=crop" alt="Minimalist Floral Arrangement" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section id="categories" class="container">
+            <div class="section-header">
+                <h2>Browse by Category</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop" alt="Flowers" loading="lazy">
+                    </div>
+                    <h3>Flowers</h3>
+                    <p>Ethereal blooms for every occasion.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=800&auto=format&fit=crop" alt="Luxe Flowers" loading="lazy">
+                    </div>
+                    <h3>Luxe Flowers</h3>
+                    <p>Extraordinary arrangements for high-end gifting.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?q=80&w=800&auto=format&fit=crop" alt="Cakes" loading="lazy">
+                    </div>
+                    <h3>Cakes</h3>
+                    <p>Minimalist flavors, sophisticated designs.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1545241047-6083a3684587?q=80&w=800&auto=format&fit=crop" alt="Birthday Plants" loading="lazy">
+                    </div>
+                    <h3>Birthday Plants</h3>
+                    <p>Living gifts that grow alongside memories.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop" alt="Perfume" loading="lazy">
+                    </div>
+                    <h3>Perfume</h3>
+                    <p>Signature scents in monochromatic vessels.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="placeholder-box">
+                        <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=800&auto=format&fit=crop" alt="Anniversary" loading="lazy">
+                    </div>
+                    <h3>Anniversary</h3>
+                    <p>Timeless gifts for lasting memories.</p>
+                    <a href="#" class="link">Explore <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section id="shop" class="container">
+            <div class="section-header">
+                <h2>Featured Collection</h2>
+                <div class="filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Flowers</button>
+                    <button class="filter-btn">Luxe Flowers</button>
+                    <button class="filter-btn">Cakes</button>
+                    <button class="filter-btn">Birthday Plants</button>
+                    <button class="filter-btn">Perfume</button>
+                    <button class="filter-btn">Anniversary</button>
+                </div>
+            </div>
+            <div class="product-grid" id="product-container">
+                <!-- Products will be injected by JS -->
+            </div>
+            <div class="load-more">
+                <button class="btn btn-secondary">View All Items</button>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Join the Circle</h2>
+                    <p>Exclusive previews and minimalist inspiration delivered to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container grid-footer">
+            <div class="footer-brand">
+                <a href="#" class="logo">NOIR</a>
+                <p>Minimalist marketplace for life's most precious celebrations.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Flowers</a></li>
+                    <li><a href="#">Luxe Flowers</a></li>
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Birthday Plants</a></li>
+                    <li><a href="#">Perfume</a></li>
+                    <li><a href="#">Anniversary</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow</h4>
+                <div class="social-icons">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 NOIR Marketplace. All rights reserved.</p>
+            <div class="legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
